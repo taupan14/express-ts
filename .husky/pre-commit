@@ -1,4 +1,32 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo 'Styling, testing and building your project before committing'
+echo '==> Styling, testing and building your project before committing'
+
+yarn check-format ||
+(
+    echo '==>[X] Your styling look disgusting. Prettier check failed. Run format, add changes and try commit again.';
+    false;
+)
+
+yarn check-lint ||
+(
+    echo '==>[X] Get that weak shit out of here! ESLint check failed. Make the required change listed above, add changes and try commit again.';
+    false;
+)
+
+yarn check-types ||
+(
+    echo '==>[X] Failed type check. Are you seriously trying to write that? Make the required change listed above.';
+    false;
+)
+
+# build
+yarn build ||
+(
+    echo '==>[X] Failed to build. Are you seriously trying to write that? Make the required change listed above.';
+    false;
+)
+
+
+echo '==> You win this time... I am committing this now.'
