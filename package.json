@@ -36,12 +36,12 @@
     "build": "tsc || copy .env ./build/.env",
     "prod": "node ./build/index.js",
     "format": "npx prettier . --write",
-    "prepare": "npx husky install",
+    "prepare": "husky",
     "check-types": "npx tsc --noEmit --pretty",
     "check-lint": "npx eslint . --ext ts --ext tsx --ext js",
     "check-format": "npx prettier . --check"
   },
-  "husky":{
+  "husky": {
     "hooks": {
       "pre-commit": "npx pretty-quick --staged ng lint ng test",
       "pre-push": "ng build --aot true"
