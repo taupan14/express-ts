@@ -1,26 +1,9 @@
-import { Router, type Request, type Response } from 'express'
-// import { inputBarangValidation } from '../validations/barang.validation'
+import { Router } from 'express'
+import { getAllBarang, insertBarang } from '../controllers/barang.controller'
+import expressAsyncHandler from 'express-async-handler'
 const barangRouter = Router()
 
-barangRouter.get('/barang', (req: Request, res: Response) => {
-  res.status(200).json({ message: 'Hello World!' })
-})
-
-// barangRouter.post('/barang', (req: Request, res: Response) => {
-//   const { error, value } = inputBarangValidation(req.body)
-//   if (error != null) {
-//     return res.status(400).json({
-//       error: error.details[0].message,
-//       message: 'Input data gagal!',
-//       data: value
-//     })
-//   }
-
-//   return res.status(200).json({
-//     error: null,
-//     message: 'Input data berhasil',
-//     data: value
-//   })
-// })
+barangRouter.get('/barang', expressAsyncHandler(getAllBarang))
+barangRouter.post('/barang', insertBarang)
 
 export default barangRouter
