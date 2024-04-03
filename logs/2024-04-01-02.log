@@ -1,0 +1,154 @@
+ [LOGGER] 2024-04-01 02:27:28.461 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m55[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'inputBarangValidation'.
+
+[7m55[0m     const { error, value } = inputBarangValidation(req.body)
+[7m  [0m [91m                             ~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m55[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'inputBarangValidation'.
+
+[7m55[0m     const { error, value } = inputBarangValidation(req.body)
+[7m  [0m [91m                             ~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+ [LOGGER] 2024-04-01 02:40:18.862 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m104[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'barang'.
+
+[7m104[0m       data: barang
+[7m   [0m [91m            ~~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m100[0m:[93m67[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m100[0m     const barang = await updateBarang({...value, id: parseInt(id)}})
+[7m   [0m [91m                                                                  ~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m100[0m:[93m68[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m100[0m     const barang = await updateBarang({...value, id: parseInt(id)}})
+[7m   [0m [91m                                                                   ~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m106[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m106[0m   } catch (error: Error | any) {
+[7m   [0m [91m    ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m104[0m:[93m13[0m - [91merror[0m[90m TS2304: [0mCannot find name 'barang'.
+
+[7m104[0m       data: barang
+[7m   [0m [91m            ~~~~~~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m100[0m:[93m67[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m100[0m     const barang = await updateBarang({...value, id: parseInt(id)}})
+[7m   [0m [91m                                                                  ~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m100[0m:[93m68[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m100[0m     const barang = await updateBarang({...value, id: parseInt(id)}})
+[7m   [0m [91m                                                                   ~[0m
+[96msrc/controllers/barang.controller.ts[0m:[93m106[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m106[0m   } catch (error: Error | any) {
+[7m   [0m [91m    ~~~~~[0m
+
+    at createTSError (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+ [LOGGER] 2024-04-01 02:40:37.540 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m114[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m114[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/controllers/barang.controller.ts[0m:[93m59[0m:[93m20[0m
+    [7m59[0m ): Promise<any> => {
+    [7m  [0m [96m                   ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m114[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m114[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/controllers/barang.controller.ts[0m:[93m59[0m:[93m20[0m
+    [7m59[0m ): Promise<any> => {
+    [7m  [0m [96m                   ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+    at createTSError (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+ [LOGGER] 2024-04-01 02:44:57.325 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m114[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m114[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/controllers/barang.controller.ts[0m:[93m59[0m:[93m20[0m
+    [7m59[0m ): Promise<any> => {
+    [7m  [0m [96m                   ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m114[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m114[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/controllers/barang.controller.ts[0m:[93m59[0m:[93m20[0m
+    [7m59[0m ): Promise<any> => {
+    [7m  [0m [96m                   ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+    at createTSError (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+ [LOGGER] 2024-04-01 02:46:07.089 AM error : uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m84[0m:[93m3[0m - [91merror[0m[90m TS1184: [0mModifiers cannot appear here.
+
+[7m84[0m   export const updateDataBarang = async (
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/barang.controller.ts[0m:[93m84[0m:[93m3[0m - [91merror[0m[90m TS1184: [0mModifiers cannot appear here.
+
+[7m84[0m   export const updateDataBarang = async (
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Taupan\Desktop\ts-express\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
